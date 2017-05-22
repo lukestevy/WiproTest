@@ -2,24 +2,18 @@
 
 - Open android studio
 - In the main menu click on VCS>Checkout from version control>Git
-- Fill the following input text with the next information:
-- Git repository URL -->  https://github.com/mbgomez/weather.git
-- Parent directory --> 'Where your workspace is, example C:\workspace'
-- Directory name --> 'Name of the directory where you want to download the project, example: Weather'
+- Git repository URL -->  https://github.com/lukestevy/WiproTest.git
 - Built project with gradle file
-- Create an android emulator with API 21 or higher (I use genymotion 'Custom phone - 5.0.0 - Api 21 - 768x1280)
-- Run weather project
+- Create an android emulator with API 21 or higher
+- Run Weather_Test project
 - For testing run TestApp inside AndroidTest folder
 
 ## Improvements
-
-- Add all the info returned for the API into details screen
-- Create tabs to divide shown info by days
-- Create settings to configure format of data
-- Create charts in detail screen
-- Create option to see other cities weather forecast
-- Use gps to show user position forecast
+- Add more TDD Test cases using Mockito
+- Add more Espresso Test cases for Automated UI testing
+- Display additional information returned for the API
+- Get the Weather according to real time location of the user using Fused Location API
+- Provide recyclerview search functionality to enter location (cityname)
+- Create graphical information using Bar Cahrt diagram.
 - Check Api options to impruve app
-- refactor
-- document
-- Run how to use app first time user run the app
+- Refactor the code base 
